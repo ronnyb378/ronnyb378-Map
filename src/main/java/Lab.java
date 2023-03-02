@@ -73,9 +73,6 @@ public class Lab {
     /**
      * Update the value related to a certain key in a map.
      * @param map a map to be manipulated.
-     * @param key the key corresponding to the pair we will be updating.
-     * @param value the new value that should be associated with key.
-     * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void overwriteValue(Map<Integer, String> map, int key, String value){
         if (map.containsKey(key)) {
